@@ -18,7 +18,7 @@ datasources:
   isDefault: true
   jsonData:
     # Zabbix API credentials
-    username: zabbix
+    usern: zabbix
     password: zabbix
     # Trends options
     trends: true

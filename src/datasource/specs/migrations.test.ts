@@ -43,7 +43,7 @@ describe('Migrations', () => {
   describe('When handling provisioned datasource config', () => {
     beforeEach(() => {
       ctx.jsonData = {
-        username: 'zabbix',
+        user: 'zabbix',
         password: 'zabbix',
         trends: true,
         trendsFrom: '7d',

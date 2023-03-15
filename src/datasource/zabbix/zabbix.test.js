@@ -17,7 +17,7 @@ describe('Zabbix', () => {
   let zabbix;
   let options = {
     url: 'http://localhost',
-    username: 'zabbix',
+    user: 'zabbix',
     password: 'zabbix',
   };
 

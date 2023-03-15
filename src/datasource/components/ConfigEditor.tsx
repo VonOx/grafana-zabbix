@@ -85,7 +85,7 @@ export const ConfigEditor = (props: Props) => {
           <FormField
             labelWidth={7}
             inputWidth={15}
-            label="Username"
+            label="User"
             value={options.jsonData.username || ''}
             onChange={jsonDataChangeHandler('username', options, onOptionsChange)}
             required

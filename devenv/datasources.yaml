@@ -7,7 +7,7 @@ datasources:
     url: http://zabbix-web:8080/api_jsonrpc.php
     isDefault: true
     jsonData:
-      username: Admin
+      user: Admin
       trends: true
       trendsFrom: "7d"
       trendsRange: "4d"

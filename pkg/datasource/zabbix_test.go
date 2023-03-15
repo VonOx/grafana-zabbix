@@ -13,7 +13,7 @@ var basicDatasourceInfo = &backend.DataSourceInstanceSettings{
 	ID:       1,
 	Name:     "TestDatasource",
 	URL:      "http://zabbix.org/zabbix",
-	JSONData: []byte(`{"username":"username", "password":"password", "cacheTTL":"10m"}`),
+	JSONData: []byte(`{"user":"username", "password":"password", "cacheTTL":"10m"}`),
 }
 
 func mockZabbixQuery(method string, params zabbix.ZabbixAPIParams) *zabbix.ZabbixAPIRequest {
